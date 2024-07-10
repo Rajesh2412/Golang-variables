@@ -20,8 +20,10 @@ In Go lang Byte is of type uint8 . Each stores 8 bits of unsigned integers.
 
       func main(){
         var hero string= "Tom"
-        fmt.Printf("String Value = %v & and String Type = %T", hero, hero) // result String Value = Tom & String Type = String
-        fmt.Printf("String Value = %v & and String Type = %T", hero[0], hero[0) // result String Value = 82 & String Type = unit8
+        fmt.Printf("String Value = %v & and String Type = %T", hero, hero) 
+        // result String Value = Tom & String Type = String
+        fmt.Printf("String Value = %v & and String Type = %T", hero[0], hero[0) 
+        // result String Value = 82 & String Type = unit8
       }
 
   Above, when we try to read the 0 index character, we can see the result appears as byte value 82. 
