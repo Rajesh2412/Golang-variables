@@ -20,9 +20,9 @@ In Go lang Byte is of type uint8 . Each stores 8 bits of unsigned integers.
 
       func main(){
         var hero string= "Tom"
-        fmt.Printf("String Value = %v & and String Type = %T", hero, hero) 
+        fmt.Printf("String Value = %v &  String Type = %T", hero, hero) 
         // result String Value = Tom & String Type = String
-        fmt.Printf("String Value = %v & and String Type = %T", hero[0], hero[0) 
+        fmt.Printf("String Value = %v &  String Type = %T", hero[0], hero[0) 
         // result String Value = 82 & String Type = unit8
       }
 
@@ -39,7 +39,7 @@ A Rune is for storing a single Unicode codepoint ( which is a unique number for 
 
       func main(){
         var hero rune = 'T'
-        fmt.Printf("Rune Value = %v & and Type = %T", hero, hero) // result Rune Value = 82 & Type = Rune
+        fmt.Printf("Rune Value = %v &  Type = %T", hero, hero) // result Rune Value = 82 & Type = Rune
       }
 
 
